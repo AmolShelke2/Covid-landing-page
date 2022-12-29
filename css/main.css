@@ -27,3 +27,13 @@ img {
         width: 100%;
         margin: 0 auto;
 }
+
+:root {
+        --orange: #FA5652;
+        --green: #035755;
+        --gray: #484f51;
+        --pink: #FEE6E5;
+        --light-pink: #FFF9f9;
+        --smooth: all .3s ease-in;
+        --shadow: 0 7px 29px 0 rgba(100, 100, 111, .2);
+}
