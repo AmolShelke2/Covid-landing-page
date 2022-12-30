@@ -17,7 +17,7 @@ img {
 }
 
 .container {
-        max-width: 1920px;
+        max-width: 1720px;
         width: 100%;
         margin: 0 auto;
 }
@@ -187,4 +187,38 @@ button:hover {
 
 .open .navbar__icon:after {
         transform: rotate(-45deg) translate(35px, 35px);
+}
+
+@media(min-width: 62em) {
+        .navbar__links {
+                position: initial;
+                transform: translateX(0);
+                opacity: 1;
+                background-color: var(--light-pink);
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+        }
+
+        .navbar__link {
+                margin: 0 25px;
+        }
+
+        .navbar__link a {
+                color: var(--green);
+        }
+
+        .navbar__link a:hover {
+                color: var(--orange);
+        }
+
+        .navbar__btn {
+                margin-left: 0;
+                border: 0;
+        }
+
+        .navbar__ham {
+                display: none;
+        }
+
 }
