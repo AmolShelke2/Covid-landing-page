@@ -90,15 +90,22 @@ button:hover {
 }
 
 /* Menu */
+.navbar__links.navbar__open {
+        transform: translateX(0);
+        opacity: 1;
+        transition: var(--smooth);
+}
+
+
 .navbar__links {
         position: fixed;
         top: 0;
         left: 0;
         width: 60%;
         height: 100%;
-        /* transform: translateX(-100%); */
+        transform: translateX(-100%);
         background-color: var(--orange);
-        /* opacity: 0; */
+        opacity: 0;
         transition: var(--smooth);
         z-index: 5;
 }
@@ -169,3 +176,15 @@ button:hover {
 }
 
 /* icon animation */
+.open .navbar__icon {
+        transform: translateX(-50px);
+        background: transparent;
+}
+
+.open .navbar__icon:before {
+        transform: rotate(45deg) translate(35px, -35px);
+}
+
+.open .navbar__icon:after {
+        transform: rotate(-45deg) translate(35px, 35px);
+}
