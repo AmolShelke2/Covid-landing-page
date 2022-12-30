@@ -1,4 +1,4 @@
-/* Global */
+/* Global ********************* */
 
 *,
 *::before,
@@ -37,3 +37,5 @@ img {
         --smooth: all .3s ease-in;
         --shadow: 0 7px 29px 0 rgba(100, 100, 111, .2);
 }
+
+/* header ********************* */
