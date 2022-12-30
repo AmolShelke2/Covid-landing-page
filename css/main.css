@@ -28,6 +28,26 @@ img {
         margin: 0 auto;
 }
 
+button {
+        font-family: 'Domine', serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        background-color: var(--orange);
+        color: #fff;
+        padding: 1em 2em;
+        border-radius: 100px;
+        border: none;
+        cursor: pointer;
+        box-shadow: var(--shadow);
+        transition: var(--smooth);
+}
+
+button:hover {
+        color: var(--orange);
+        background-color: var(--light-pink);
+        transition: var(--smooth);
+}
+
 :root {
         --orange: #FA5652;
         --green: #035755;
@@ -39,3 +59,108 @@ img {
 }
 
 /* header ********************* */
+.header {
+        background-color: var(--light-pink);
+}
+
+.navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 15px 55px 15px;
+        background-color: var(--light-pink);
+}
+
+/* logo */
+.navbar__logo {
+        display: flex;
+        align-items: center;
+}
+
+.navbar__logo img {
+        width: 63px;
+}
+
+.navbar__logo p {
+        font-family: 'Red Hat Display', serif;
+        font-size: 1.125rem;
+        text-transform: uppercase;
+        color: var(--green);
+        margin-left: 14px;
+}
+
+/* Menu */
+.navbar__links {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 60%;
+        height: 100%;
+        /* transform: translateX(-100%); */
+        background-color: var(--orange);
+        /* opacity: 0; */
+        transition: var(--smooth);
+        z-index: 5;
+}
+
+.navbar__link {
+        font-size: 1.125rem;
+        margin: 55px;
+        list-style: none;
+}
+
+.navbar__link a {
+        font-family: 'Domine', serif;
+        text-decoration: none;
+        color: #fff;
+        text-transform: capitalize;
+        transform: var(--smooth);
+}
+
+.navbar__link a:hover {
+        color: var(--green);
+        transition: var(--smooth);
+}
+
+.navbar__btn {
+        font-size: 1.125rem;
+        margin-left: 35px;
+        border: 1px solid var(--light-pink);
+}
+
+/* Hamburger icon */
+.navbar__ham {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 80px;
+        cursor: pointer;
+        transition: var(--smooth);
+        z-index: 6;
+}
+
+.navbar__icon {
+        width: 45px;
+        height: 6px;
+        background: var(--orange);
+        border-radius: 5px;
+        transition: var(--smooth);
+        position: relative;
+}
+
+.navbar__icon::before,
+.navbar__icon::after {
+        content: '';
+        position: absolute;
+        width: 45px;
+        height: 6px;
+        background: var(--orange);
+        border-radius: 5px;
+        transition: var(--smooth);
+        position: relative;
+}
+
+.navbar__icon::before {
+        transform: translateY(-12px);
+}
