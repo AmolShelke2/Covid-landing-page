@@ -222,3 +222,8 @@ button:hover {
         }
 
 }
+
+/* Banner ********************* */
+.banner .container {
+        background-image: linear-gradient(to bottom, var(--light-pink), #fff);
+}
