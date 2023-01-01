@@ -347,3 +347,17 @@ p {
 .whatis__btn button {
         font-size: 1.25rem;
 }
+
+@media(min-width: 62em) {
+        #whatis .container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+        }
+
+        .whatis__desc {
+                text-align: initial;
+                padding: 0 240px 0 0;
+                width: 45%;
+        }
+}
