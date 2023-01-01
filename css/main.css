@@ -61,6 +61,29 @@ p {
         padding: 0 15px;
 }
 
+.section__tag {
+        font-size: 1.75rem;
+        font-family: 'Red Hat Display', serif;
+        text-transform: capitalize;
+        color: var(--orange);
+}
+
+.section__title {
+        font-size: 3.125rem;
+        font-family: "Red Hat Display", serif;
+        text-transform: capitalize;
+        color: var(--green);
+        margin-bottom: 18px;
+}
+
+.section__detail {
+        font-size: 1.25rem;
+        font-family: 'Domine', serif;
+        color: var(--gray);
+        max-width: 700px;
+        margin: 0 auto;
+}
+
 :root {
         --orange: #FA5652;
         --green: #035755;
@@ -308,3 +331,19 @@ p {
 }
 
 /* Whatis *************** */
+#whatis .container {
+        position: relative;
+}
+
+.whatis__desc {
+        text-align: center;
+        padding: 0 15px;
+}
+
+.whatis__btn {
+        margin-top: 56px;
+}
+
+.whatis__btn button {
+        font-size: 1.25rem;
+}
