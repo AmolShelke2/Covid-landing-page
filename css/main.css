@@ -244,7 +244,7 @@ p {
 .banner__desc {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         padding: 0 10px;
 }
 
