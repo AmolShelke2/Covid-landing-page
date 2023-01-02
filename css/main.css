@@ -427,3 +427,22 @@ p {
         margin: 0 auto;
         padding-top: 13px;
 }
+
+@media (min-width: 62em) {
+        .contagion__cards {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+        }
+
+        .contagion__cards:before {
+                content: "";
+                position: absolute;
+                bottom: -55%;
+                left: -9%;
+                width: 100%;
+                height: 100%;
+                background-image: url("../img/cont-dec.png");
+                background-repeat: no-repeat;
+        }
+}
