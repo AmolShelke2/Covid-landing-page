@@ -596,4 +596,15 @@ p {
                 transform: translate(-18%, 10%);
         }
 
+        .todo__dec-1 img {
+                display: initial;
+        }
+
+        .todo__dec-2 img {
+                display: initial;
+        }
+
+        .todo__dec-3 img {
+                display: initial;
+        }
 }
