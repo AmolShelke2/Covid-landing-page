@@ -54,6 +54,7 @@ p {
 
 .pt {
         padding-top: 10%;
+        margin-bottom: 5%;
 }
 
 .section__heading {
@@ -448,3 +449,103 @@ p {
 }
 
 /* Css styles for todo section */
+#todo .container {
+        position: relative;
+}
+
+.todo__dec-1 {
+        position: absolute;
+        top: 25%;
+        left: 0;
+}
+
+.todo__dec-1 img {
+        width: 138px;
+        display: none;
+}
+
+.todo__dec-2 {
+        position: absolute;
+        top: 78%;
+        left: 0;
+}
+
+.todo__dec-2 img {
+        width: 128px;
+        display: none;
+}
+
+.todo__dec-3 {
+        position: absolute;
+        top: 85%;
+        right: 0;
+}
+
+.todo__dec-3 img {
+        width: 158px;
+        display: none;
+}
+
+.todo__steps {
+        padding-top: 5%;
+}
+
+.todo__step {
+        display: flex;
+        flex-direction: column;
+}
+
+.todo__step-desc {
+        text-align: center;
+        padding: 0 15px;
+        order: 2;
+        position: relative;
+}
+
+.todo__step-desc span {
+        position: relative;
+        font-family: 'Red Hat Display', serif;
+        font-size: 2.5rem;
+        color: var(--orange);
+}
+
+.todo__step-desc span:before {
+        content: '';
+        background-color: var(--pink);
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        z-index: -1;
+        border-radius: 50%;
+        transform: translate(-12%, -10%);
+}
+
+.center span:before {
+        transform: translate(-18%, -10%);
+}
+
+.todo__step-desc h5 {
+        padding-top: 15px;
+        font-size: 2.875rem;
+        font-family: 'Domine', serif;
+        color: var(--gray);
+        text-transform: capitalize;
+}
+
+.todo__step-desc p {
+        font-size: 1.125rem;
+        font-family: 'Domine', serif;
+        color: var(--gray);
+        text-transform: capitalize;
+        padding-top: 20px;
+}
+
+.todo__step-img {
+        order: 1;
+        padding: 15px 0;
+        text-align: center;
+}
+
+.todo__step-img img {
+        max-width: 565px;
+}
