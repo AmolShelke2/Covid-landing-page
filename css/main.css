@@ -549,3 +549,51 @@ p {
 .todo__step-img img {
         max-width: 565px;
 }
+
+@media(min-width: 62em) {
+        .todo__step {
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+        }
+
+        .todo__step-desc {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                text-align: initial;
+                max-width: 700px;
+                width: 100%;
+                order: 1;
+        }
+
+        .todo__step-img {
+                order: 2;
+        }
+
+        .todo__step-desc span {
+                display: flex;
+                align-items: baseline;
+        }
+
+        .ml {
+                margin-left: 30px;
+        }
+
+        .todo__step:nth-child(even) .todo__step-desc {
+                order: 2;
+        }
+
+        .todo__step:nth-child(even) .todo__step-img {
+                order: 1;
+        }
+
+        .todo__step-desc span:before {
+                transform: translate(-12%, 10%)
+        }
+
+        .center span:before {
+                transform: translate(-18%, 10%);
+        }
+
+}
