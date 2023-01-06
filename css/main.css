@@ -547,7 +547,7 @@ p {
 }
 
 .todo__step-img img {
-        max-width: 565px;
+        max-width: 460px;
 }
 
 @media(min-width: 62em) {
@@ -610,3 +610,59 @@ p {
 }
 
 /* Contact *************/
+.contact__title h1 {
+        font-family: 'Domine', serif;
+        font-size: 2.75rem;
+        color: var(--green);
+        text-align: center;
+        text-transform: capitalize;
+        max-width: 720px;
+        width: 100%;
+        margin: 0 auto;
+}
+
+.contact__form {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.contact__form input {
+        font-family: 'Domine', serif;
+        font-size: 1.222rem;
+        margin-top: 60px;
+        max-width: 800px;
+        width: 90%;
+        height: 114px;
+        padding: 15px 15px 15px 35px;
+        border-radius: 200px;
+        box-shadow: var(--shadow);
+        border: none;
+}
+
+.contact__form input:focus {
+        outline: none;
+}
+
+.contact__form button {
+        font-size: 1.11rem;
+        margin-top: 1rem;
+}
+
+@media(min-width: 62rem) {
+        .contact__title h1 {
+                font-size: 3.374rem;
+        }
+
+        .contact__form {
+                max-width: 800px;
+                width: 100%;
+                margin: 0 auto;
+        }
+
+        .contact__form input {
+                width: 100%;
+        }
+}
