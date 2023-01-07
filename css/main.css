@@ -666,3 +666,42 @@ p {
                 width: 100%;
         }
 }
+
+/* Footer ********/
+.footer {
+        margin-top: 5rem;
+}
+
+.footer__links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+}
+
+.footer__link {
+        color: #000;
+        list-style: none;
+}
+
+.footer__link img {
+        height: 2rem;
+        width: 5rem;
+
+}
+
+.copyright p {
+        margin-top: 1rem;
+        text-align: center;
+        font-family: 'Domine', serif;
+        font-size: 1.22rem;
+        text-transform: capitalize;
+        margin: 1rem;
+        padding: 1rem;
+        color: var(--green);
+}
+
+.copyright p a {
+        text-decoration: underline;
+        font-weight: bold;
+}
