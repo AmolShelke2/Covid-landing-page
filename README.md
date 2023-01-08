@@ -3,6 +3,8 @@
 Responsive covid landing page created with HTML, CSS and JavaScript.
 The page we are building is to help raise awareness and prevention for covid-19.
 
+Live preview [Covid landing page](https://covid-landing-page-seven.vercel.app/)
+
 # Tech Stack
 
 - HTML
